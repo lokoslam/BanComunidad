@@ -1,0 +1,39 @@
+# Base de datos SQLite — datos financieros reales, no subir al repo
+data/raw/*.db
+data/raw/*.db-shm
+data/raw/*.db-wal
+
+# Carpeta data completa excepto estructura
+data/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Variables de entorno
+.env
+.env.local
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
